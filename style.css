@@ -1,0 +1,74 @@
+
+@font-face {
+    font-family: 'Digital-7 Mono';
+    src: url('./assets/fonts/Digital-7Mono.woff') format('woff2'),
+        url('./assets/fonts/Digital-7Mono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Digital-7';
+    src: url('./assets/fonts/Digital-7.woff2') format('woff2'),
+        url('./assets/fonts/Digital-7.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+body{
+    padding: 100px;
+    font-family: 'Digital-7';
+    
+
+}
+
+.sm-clock {
+    background: url('./assets/img/clock.jpg') center no-repeat;
+    padding: 187px 0;
+    position: relative;
+}
+.po-absolute {
+    position: absolute;
+    content: '';
+    font-weight: 900;
+    text-align: right;
+}
+p.hours {
+    left: 111px;
+    top: 77px;
+    font-size: 64px;
+    color: red;
+}
+.hours::after{
+    content: ':';
+}
+p.minutes {
+    left: 180px;
+    top: 78px;
+    font-size: 62px;
+    color: red;
+}
+p.seconds {
+    left: 190px;
+    top: 143px;
+    font-size: 51px;
+    color: red;
+}
+p.format {
+    left: 190px;
+    top: 189px;
+    font-size: 51px;
+    color: red;
+}
+
+
+
+
+
+
